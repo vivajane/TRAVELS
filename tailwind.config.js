@@ -10,12 +10,16 @@ export default {
         'sans': ['Sans'],
         'poppins': ['Poppins'],
         'volkhov': ['Volkhov'],
-        "open-sans": ['Open Sans']
+        "open-sans": ['Open Sans', 'Google Sans'],
         
       },
+     
       backgroundImage: {
         'yellow-decore': "url('/src/assets/yellowdecore.svg')",
       },
+      colors: {
+        "favorite": "#14183E",
+      }
     },
   },
   plugins: [],

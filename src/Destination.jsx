@@ -3,57 +3,59 @@ import { BiSolidNavigation } from "react-icons/bi";
 import mosque from './assets/mosque.png'
 import yellow from './assets/yellowcity.jpg';
 import mosqueanother from './assets/anotherMosque.png';
+import decore from "./assets/Decore.png"
 
 const Destination = () => {
   return (
     <div className='px-6 md:px-24'>
-        <div>
-            <h3>Top Selling</h3>
-            <h1>Top Destinations</h1>
+        <div className='text-center'>
+            <h3 className='font-poppins font-normal'>Top Selling</h3>
+            <h1 className='font-volkhov font-bold my-4'>Top Destinations</h1>
         </div>
-        <div className='md:flex md:justify-center md:gap-3 block'>
-            <div>
-                <img src={mosque} alt="mosque h-auto" />
-                <div className='flex justify-between'>
+        <div className='md:flex md:gap-3 block relative font-poppins font-medium'>
+            <div className='bg-white'>
+                <img src={mosque} alt="mosque" />
+                <div className='text-center'>
+                <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
                     <p>Rome, Italy</p>
-                    <p>$5,42k</p>
+                    <p>$542k</p>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 md:mx-10'>
                     <BiSolidNavigation/>
                     <p>10 Days Trip</p>
                 </div>
-                <div>
-
                 </div>
+               
             </div>
-            <div>
-                <img src={yellow} alt="mosque h-auto" />
-                <div className='flex justify-between'>
+            <div className='bg-white'>
+                <img src={mosqueanother} alt="mosque" />
+                <div className='text-center'>
+                    
+                <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
                     <p>London, UK</p>
                     <p>$4.2k</p>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 md:mx-10'>
                     <BiSolidNavigation/>
                     <p>12 Days Trip</p>
                 </div>
-                <div>
-
                 </div>
+                
             </div>
-            <div>
-                <img src={mosqueanother} alt="mosque h-auto" />
-                <div className='flex justify-between'>
+            <div className='bg-white'>
+                <img src={mosqueanother} alt="mosque" />
+                <div className='text-center'>
+                <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
                     <p>Full Europe</p>
                     <p>$15k</p>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 md:mx-10'>
                     <BiSolidNavigation/>
                     <p>28 Days Trip</p>
                 </div>
-                <div>
-
                 </div>
             </div>
+            <img src={decore} alt="" className='absolute top-10 right-0 z-0' />
 
         </div>
       

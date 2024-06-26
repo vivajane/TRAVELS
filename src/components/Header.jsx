@@ -28,7 +28,7 @@ const Header = () => {
             <li>Flights</li>
             <li>Bookings</li>
         </ul>
-        <ul className={`flex flex-col md:hidden gap-3 top-16 items-center h-screen  w-full bg-black absolute py-8 ${show ? 'inset-0 ' : 'left-[200%]'} text-gray-50`}>
+        <ul className={`flex flex-col md:hidden gap-3 top-16 items-center h-screen  w-full bg-black absolute py-8 ${show ? 'inset-0 ' : 'hidden'} text-gray-50`}>
             <li className="py-4">Destinations</li>
             <li className="py-4">Hotels</li>
             <li className="py-4">Flights</li>
