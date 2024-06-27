@@ -22,7 +22,7 @@ const Header = () => {
         <img src={logo} alt="logo"/>
         <div className="md:hidden block" onClick={OnClickHandler}>{show ? <FaTimes/>:<GiHamburgerMenu/>}</div>
         </div>
-        <ul className="md:flex hidden gap-3 items-center flex-1 justify-center font-poppins font-semibold mt-4">
+        <ul className="md:flex hidden md:gap-20 items-center flex-1 justify-center font-poppins font-semibold mt-4">
             <li>Destinations</li>
             <li>Hotels</li>
             <li>Flights</li>

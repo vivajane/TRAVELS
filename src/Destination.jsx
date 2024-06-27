@@ -9,8 +9,8 @@ const Destination = () => {
   return (
     <div className='px-6 md:px-24'>
         <div className='text-center'>
-            <h3 className='font-poppins font-normal'>Top Selling</h3>
-            <h1 className='font-volkhov font-bold my-4'>Top Destinations</h1>
+            <h3 className='font-poppins font-semibold text-lg text-purple'>Top Selling</h3>
+            <h1 className='font-volkhov md:font-bold font-semibold my-4 text-top md:text-4xl text-2xl mb-10'>Top Destinations</h1>
         </div>
         <div className='md:flex md:gap-3 block relative font-poppins font-medium'>
             <div className='bg-white'>

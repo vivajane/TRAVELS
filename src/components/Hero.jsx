@@ -7,13 +7,13 @@ const Hero = () => {
     <div className="px-6 md:px-24 md:flex block mx-auto items-center md:justify-between md:items-center">
         <div className="font-sans">
             <h2 className="font-poppins text-[10px] mx-auto my-4 md:text-base text-red-400 font-extrabold">BEST DESTINATION AROUND THE WORLD</h2>
-            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug">Travel, enjoy
+            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug text-travel">Travel, enjoy
             </p>
-            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug">
+            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug text-travel">
             and live a new
             </p>
-            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug"> and full life</p>
-            <p className="font-poppins mt-4">
+            <p className="font-volkhov font-black text-3xl md:text-5xl leading-normal md:leading-snug tex-travel"> and full life</p>
+            <p className="font-poppins mt-4 text-clear font-medium text-base">
             Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the
             </p>
             <div className="gap-20 flex md:gap-8 md:items-center mt-8 ">
