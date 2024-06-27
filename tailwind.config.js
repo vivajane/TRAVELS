@@ -31,7 +31,8 @@ export default {
         "suscribe": "#DFD7F9",
         "left": "#FF946D",
         "right": "#FF7D68 ",
-        "footer":"#080809)"
+        "footer":"#080809",
+        "spiral": "#6246E5"
         
         
         

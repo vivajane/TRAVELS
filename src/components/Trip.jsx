@@ -17,7 +17,7 @@ import love from "../assets/love.png"
 const Trip = () => {
   return (
     <div className='px-6 md:px-24'>
-        <h3 className='mt-40 mb-8 font-poppins font-semibold text-[clear] text-xl'>Easy and Fast</h3>
+        <h3 className='mt-10 mb-8 font-poppins font-semibold text-[clear] text-xl'>Easy and Fast</h3>
         <div className='md:flex md:gap-x-64 md:items-center'>
             <div className='relative' >
              <div>
