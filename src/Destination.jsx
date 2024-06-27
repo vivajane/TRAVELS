@@ -13,8 +13,8 @@ const Destination = () => {
             <h1 className='font-volkhov md:font-bold font-semibold my-4 text-top md:text-4xl text-2xl mb-10'>Top Destinations</h1>
         </div>
         <div className='md:flex md:px-16 md:gap-10 block relative font-poppins font-medium text-center mx-auto'>
-            <div className='bg-white md:h-[550px] h-[630px] mb-8'>
-                <img className='w-[500px] h-fit' src="https://images.pexels.com/photos/2319432/pexels-photo-2319432.jpeg?auto=compress&cs=tinysrgb&w=400" alt="mosque" />
+            <div className='bg-white md:h-[570px] rounded-3xl h-[670px] mb-8'>
+                <img className='w-[500px] h-fit rounded-t-3xl' src="https://images.pexels.com/photos/2319432/pexels-photo-2319432.jpeg?auto=compress&cs=tinysrgb&w=400" alt="mosque" />
                 <div className='text-center'>
                 <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
                     <p>Rome, Italy</p>
@@ -27,8 +27,8 @@ const Destination = () => {
                 </div>
                
             </div>
-            <div className='bg-white md:h-[550px] h-[630px] mb-8'>
-                <img className='w-[500px] h-fit' src={"https://images.pexels.com/photos/2884866/pexels-photo-2884866.jpeg?auto=compress&cs=tinysrgb&w=400"} alt="mosque" />
+            <div className='bg-white md:h-[570px] h-[670px] mb-8 rounded-3xl'>
+                <img className='w-[500px] h-fit rounded-t-3xl' src={"https://images.pexels.com/photos/2884866/pexels-photo-2884866.jpeg?auto=compress&cs=tinysrgb&w=400"} alt="mosque" />
                 <div className='text-center'>
                     
                 <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
@@ -42,8 +42,8 @@ const Destination = () => {
                 </div>
                 
             </div>
-            <div className='bg-white md:h-[550px] h-[630px] mb-8'>
-                <img className='z-10 w-[500px] h-fit' src={"https://images.pexels.com/photos/6825002/pexels-photo-6825002.jpeg?auto=compress&cs=tinysrgb&w=400"}alt="mosque" />
+            <div className='bg-white md:h-[570px] h-[670px] mb-8 rounded-3xl'>
+                <img className='z-10 w-[500px] h-fit rounded-t-3xl' src={"https://images.pexels.com/photos/6825002/pexels-photo-6825002.jpeg?auto=compress&cs=tinysrgb&w=400"}alt="mosque" />
                 <div className='text-center'>
                 <div className='flex gap-8 md:gap-16 md:mx-10 mx-10 py-4'>
                     <p>Full Europe</p>
